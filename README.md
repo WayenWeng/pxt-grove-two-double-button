@@ -6,7 +6,7 @@ A PXT packet for Seeed Studio Grove Two Double Button
 
 ```blocks
 // Create a module driver, specify the i2c address
-let button = Grove_Two_Double_Button.create(DEVICE_ID_TYPE.GROVE_TWO_DUAL_BUTTON_DEF_I2C_ADDR);
+let button = Grove_Two_Double_Button.create(GROVE_TWO_DOUBLE_BUTTON.DEF_I2C_ADDR);
 
 // Get button event vaule and display
 while(true)
